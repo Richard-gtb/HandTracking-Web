@@ -1,0 +1,6 @@
+{
+  "name": "Mão Virtual 3D",
+  "description": "Aplicativo de rastreamento de mão em tempo real que replica seus movimentos em um modelo 3D.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
