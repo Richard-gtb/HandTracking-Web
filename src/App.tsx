@@ -6,6 +6,7 @@
 import { HandTrackProvider, useHandTrack } from './components/HandTrackContext';
 import HandTracker from './components/HandTracker';
 import Scene from './components/Scene';
+import RobotLink from './components/RobotLink';
 
 function AppContent() {
   const { landmarks, flexion, viewMode, setViewMode } = useHandTrack();
@@ -176,6 +177,9 @@ function AppContent() {
           SYSTEM NOMINAL
         </div>
       </footer>
+
+      {/* Ponte com a mão robótica (ESP32 via MQTT) */}
+      <RobotLink />
     </div>
   );
 }
